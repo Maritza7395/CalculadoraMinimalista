@@ -1,0 +1,30 @@
+
+/*  Fondos de esquema   */
+body{
+    background-image: url("../resources/background.png");
+    background-size: cover;
+}
+
+.background-calculator{
+    height: 584px;
+    width: 328px;
+    background: linear-gradient(180deg, #FEFEFE 0%, #E9ECEE 37.34%);
+    border-radius: 18.22px;
+    border: 1px solid #000000;
+    box-shadow: 13px 13px 10px 0px rgba(229, 229, 229, 1);
+}
+
+.position-calculator{
+    position: relative;
+    margin: 60px 300px;
+}
+
+/*  Estilo de la caja para el ingreso de numeros*/
+.input-number{
+    width: 293px;
+    height: 87px;
+    background-color: #A5A5A5;
+    border: 7px solid #000000;
+    border-radius: 10px;
+    margin: 65px 20px;
+}
