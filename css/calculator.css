@@ -62,13 +62,23 @@ body{
 }
 
 /*  Estilo de la caja para el ingreso de numeros    */
-.input-number{
+.input-container{
     width: 293px;
     height: 87px;
     background-color: #A5A5A5;
     border: 7px solid #000000;
     border-radius: 10px;
     margin: 65px 20px 45px 20px;
+}
+
+.input-style{
+    background-color: #A5A5A5;
+    width: 100%;
+    border: 0;
+    text-align: end;
+    outline: none;
+    color: #3F474E;
+    font-size: 28px;
 }
 
 /*  Estilos de los botones de la calculadora    */
