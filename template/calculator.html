@@ -15,11 +15,12 @@
     <body>
         <div class="background-calculator position-calculator">
             <div class="row input-container">
-                <input id="inputNumbers" class="input-style" type="text">
+                <label id="valorTemp" class="label-valor"></label>
+                <input id="inputNumbers" class="input-style" type="text" value="0" disabled>
             </div>
             <div class="row style-row">
                 <div class="col style-col">
-                    <div class="c-button size-button">
+                    <div class="c-button size-button" onclick="clearInput()">
                         <label>C</label>
                     </div>
                     <div class="number-button number-shadow size-button" onclick="pressNumber(7)">
@@ -65,24 +66,24 @@
                     <div class="number-button number-shadow size-button" onclick="pressNumber(3)">
                         <label>3</label>
                     </div>
-                    <div class="back-button back-shadow size-button">
+                    <div class="back-button back-shadow size-button" onclick="borrar()">
                         <img src="../resources/backspace.png">
                     </div>
                 </div>
                 <div class="col style-col">
-                    <div class="operators-button operators-shadow size-button">
+                    <div class="operators-button operators-shadow size-button" onclick="division()">
                         <label>÷</label>
                     </div>
-                    <div class="operators-button operators-shadow size-button">
+                    <div class="operators-button operators-shadow size-button" onclick="multiplicacion()">
                         <label>x</label>
                     </div>
-                    <div class="operators-button operators-shadow size-button">
+                    <div class="operators-button operators-shadow size-button" onclick="resta()">
                         <label>−</label>
                     </div>
-                    <div class="operators-button operators-shadow size-button">
+                    <div class="operators-button operators-shadow size-button" onclick="suma()">
                         <label>+</label>
                     </div>
-                    <div class="result-button result-shadow size-button">
+                    <div class="result-button result-shadow size-button" onclick="resultado()">
                         <label>=</label>
                     </div>
                 </div>
