@@ -15,23 +15,23 @@
     <body>
         <div class="background-calculator position-calculator">
             <div class="row input-container">
-                <input class="input-style" type="text">
+                <input id="inputNumbers" class="input-style" type="text">
             </div>
             <div class="row style-row">
                 <div class="col style-col">
                     <div class="c-button size-button">
                         <label>C</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
-                        <label>7</label>
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(7)">
+                        <label id="7">7</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(4)">
                         <label>4</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(1)">
                         <label>1</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(0)">
                         <label>0</label>
                     </div>
                 </div>
@@ -39,13 +39,13 @@
                     <div class="min-button size-button">
                         <label>+/-</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(8)">
                         <label>8</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(5)">
                         <label>5</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(2)">
                         <label>2</label>
                     </div>
                     <div class="number-button number-shadow size-button">
@@ -56,13 +56,13 @@
                     <div class="percentage-button size-button">
                         <label>%</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(9)">
                         <label>9</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(6)">
                         <label>6</label>
                     </div>
-                    <div class="number-button number-shadow size-button">
+                    <div class="number-button number-shadow size-button" onclick="pressNumber(3)">
                         <label>3</label>
                     </div>
                     <div class="back-button back-shadow size-button">
@@ -88,6 +88,8 @@
                 </div>
             </div>
         </div>
+
+        <script src="../js/math-operations.js"></script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
