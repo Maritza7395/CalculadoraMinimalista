@@ -25,11 +25,12 @@ body{
     width: 70px;
 }
 
-.style-col div{
+.style-col div, .style-col label{
     margin-bottom: 8px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    user-select: none;
 }
 
 .style-col .number-button label,
@@ -47,7 +48,7 @@ body{
     font-weight: 500;
 }
 
-.style-col .operators-button label{
+.style-col .operators-button div{
     color: #111C81;
     font-size: 25px;
     font-weight: 500;
@@ -88,6 +89,11 @@ body{
     top: 70px;
     right: 25px;
     position: absolute;
+}
+
+.operators-button > input{ /* HIDE RADIO */
+    display: none;
+    position: absolute; /* Remove input from document flow */
 }
 
 /*  Estilos de los botones de la calculadora    */

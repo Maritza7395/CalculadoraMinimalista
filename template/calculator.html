@@ -71,18 +71,22 @@
                     </div>
                 </div>
                 <div class="col style-col">
-                    <div class="operators-button operators-shadow size-button" onclick="division()">
-                        <label>÷</label>
-                    </div>
-                    <div class="operators-button operators-shadow size-button" onclick="multiplicacion()">
-                        <label>x</label>
-                    </div>
-                    <div class="operators-button operators-shadow size-button" onclick="resta()">
-                        <label>−</label>
-                    </div>
-                    <div class="operators-button operators-shadow size-button" onclick="suma()">
-                        <label>+</label>
-                    </div>
+                    <label name="labelOperator" id="division" class="operators-button operators-shadow size-button">
+                        <input type="radio" name="operators" id="operators" value="division" value="d"/>
+                        <div name="operator" id="labeldivision">÷</div>
+                    </label>
+                    <label name="labelOperator" id="multiplicacion" class="operators-button operators-shadow size-button">
+                        <input type="radio" name="operators" id="operators" value="multiplicacion" value="x"/>
+                        <div name="operator" id="labelmultiplicacion">x</div>
+                    </label>
+                    <label name="labelOperator" id="resta" class="operators-button operators-shadow size-button">
+                        <input type="radio" name="operators" id="operators" value="resta" value="-"/>
+                        <div name="operator" id="labelresta">−</div>
+                    </label>
+                    <label name="labelOperator" id="suma" class="operators-button operators-shadow size-button">
+                        <input type="radio" name="operators" id="operators" value="suma" value="+"/>
+                        <div name="operator" id="labelsuma">+</div>
+                    </label>
                     <div class="result-button result-shadow size-button" onclick="resultado()">
                         <label>=</label>
                     </div>
@@ -90,11 +94,12 @@
             </div>
         </div>
 
-        <script src="../js/math-operations.js"></script>
+        
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="../js/math-operations.js"></script>
     </body>
 
 </html>
