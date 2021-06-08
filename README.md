@@ -1,7 +1,6 @@
 <p align="center">
     <a href="https://leonidasesteban.com/proyectos/todos"><img src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LonidasEsteban-destello-envolvente-circular-negro.png" height="100"/></a>
 </p>
-> Puedes encontrar más proyectos en [LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
 
 ## Requerimientos
 
@@ -37,3 +36,5 @@ para un servidor local. Navega a http://localhost:80000/
 ## 🌟 Autor
 
 * **<Maritza Loaiza>**  [@Maritza_Loaiza](https://github.com/Maritza7395)
+> Puedes encontrar más proyectos en
+[LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
