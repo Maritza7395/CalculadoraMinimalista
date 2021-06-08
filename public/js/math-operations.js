@@ -3,6 +3,7 @@ let temp;
 let input = document.getElementById("inputNumbers");
 let labelTemp = document.getElementById("valorTemp");
 let select;
+let result = false;
 
 $(document).ready(function(){
     $("input[name=operators]").click(function () {
@@ -21,10 +22,16 @@ $(document).ready(function(){
 });
 
 function pressNumber(number) {
-    if(input.value === "0"){
-        input.value = "";
-    }
-    input.value += number;   
+    if(result){
+        labelTemp.innerText = "";
+        input.value = number;
+        result = false;
+    } else{
+        if(input.value === "0"){
+            input.value = "";
+        }
+        input.value += number; 
+    }  
 }
 
 function clearInput() {
@@ -44,6 +51,7 @@ function resultado() {
         input.value = parseFloat(temp) / parseFloat(input.value);
     }
     removeClass();
+    result = true;
 }
 
 function removeClass() {
