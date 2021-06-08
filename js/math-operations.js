@@ -2,29 +2,26 @@
 let temp;
 let input = document.getElementById("inputNumbers");
 let labelTemp = document.getElementById("valorTemp");
-let sumar;
-let restar;
-let dividir;
-let multiplicar;
+let select;
 
 $(document).ready(function(){
-    $("input[name=operators]").click(function () {   
-        console.log("seleccion: " + $(this).val()) ;
-        select = $(this).val();
-        $("label[name=labelOperator]").css("background-color", "#D5D6E9");
-        $("div[name=operator]").css("color", "#111C81");
-        $("#"+select).css("background-color", "#5563E6");
-        $("#label"+select).css("color", "#FFFFFF");
-        temp = input.value;
+    $("input[name=operators]").click(function () {
+        if(select !== undefined){
+            removeClass();
+        }
+        if(input.value !== ""){
+            temp = input.value;
+        }
         labelTemp.innerText = temp;
-        console.log(temp);
-        input.value = "";
+        input.value = "0";
+        select = $(this).val();
+        $("#"+select).addClass("operators-button--select");
+        $("#label"+select).css("color", "#FFFFFF");
     });
 });
 
 function pressNumber(number) {
     if(input.value === "0"){
-        console.log("if");
         input.value = "";
     }
     input.value += number;   
@@ -33,24 +30,25 @@ function pressNumber(number) {
 function clearInput() {
     input.value = 0;
     labelTemp.innerText = "";
-    $("label[name=labelOperator]").css("background-color", "#D5D6E9");
-    $("div[name=operator]").css("color", "#111C81");
+    removeClass();
 }
 
 function resultado() {
     if(select === "suma"){
-        console.log("sumando");
-        input.value = parseInt(temp) + parseInt(input.value);
+        input.value = parseFloat(temp) + parseFloat(input.value);
     } else if(select === "resta"){
-        console.log("restando");
-        input.value = parseInt(temp) - parseInt(input.value);
+        input.value = parseFloat(temp) - parseFloat(input.value);
     } else if(select === "multiplicacion"){
-        console.log("multiplicando");
-        input.value = parseInt(temp) * parseInt(input.value);
+        input.value = parseFloat(temp) * parseFloat(input.value);
     } else if(select === "division"){
-        console.log("dividiendo");
-        input.value = parseInt(temp) / parseInt(input.value);
+        input.value = parseFloat(temp) / parseFloat(input.value);
     }
+    removeClass();
+}
+
+function removeClass() {
+    $("#"+select).removeClass("operators-button--select");
+    $("#label"+select).css("color", "#111C81");
 }
 
 function borrar() {
@@ -60,4 +58,19 @@ function borrar() {
             input.value = 0;
         }
     }
+}
+
+function changeSign() {
+    let change = input.value.substring(0, 1);
+    if(input.value !== "0"){
+        if(change === "-"){
+            input.value = input.value.replace("-", "");
+        } else{
+            input.value = "-" + input.value;
+        }
+    } 
+}
+
+function percentage() {
+    
 }

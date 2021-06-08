@@ -73,6 +73,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 .input-style{
@@ -83,6 +84,7 @@ body{
     outline: none;
     color: #3F474E;
     font-size: 28px;
+    user-select: none;
 }
 
 .label-valor{
@@ -91,9 +93,9 @@ body{
     position: absolute;
 }
 
-.operators-button > input{ /* HIDE RADIO */
+.operators-button > input{ 
     display: none;
-    position: absolute; /* Remove input from document flow */
+    position: absolute;
 }
 
 /*  Estilos de los botones de la calculadora    */
@@ -107,6 +109,10 @@ body{
     box-shadow: 4px 4px 4px 0px #DEBF81;
 }
 
+.c-button:active{
+    background-color: #DD922B;
+}
+
 .min-button{
     background-color: #F5F0E3;
     box-shadow: 4px 4px 4px 0px rgba(224, 219, 206, 1);
@@ -117,20 +123,48 @@ body{
     box-shadow: 4px 4px 4px 0px rgba(224, 219, 206, 1);
 }
 
+.min-button:active, .percentage-button:active{
+    background-color: #DEC99D;
+}
+
 .operators-button{
     background-color: #D5D6E9;
+}
+
+.operators-button:active{
+    background-color: #7F87D4;
+}
+
+.operators-button--select{
+    background-color: #5563E6;
+}
+
+.operators-button--div{
+    color: #FFFFFF;
 }
 
 .number-button{
     background-color: #F2F3F5;
 }
 
+.number-button:active{
+    background-color: #CDD5DB;
+}
+
 .result-button{
     background-color: #2D41F5;
 }
 
+.result-button:active{
+    background-color: #0B20DD;
+}
+
 .back-button{
     background-color: #E7E9EC;
+}
+
+.back-button:active{
+    background-color: #B3B9C3;
 }
 
 /*  Sombras */
