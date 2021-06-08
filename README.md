@@ -21,7 +21,7 @@ ejemplo de cómo instalar lo que requiero si es muy específico
 
 ### 💻 Desktop
 
-<imagen aquí>
+<img src="./public/resources/backspace.png">
 
 ### 📱 Mobile
 
