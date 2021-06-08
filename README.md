@@ -21,7 +21,7 @@ ejemplo de cómo instalar lo que requiero si es muy específico
 
 ### 💻 Desktop
 
-<img src="./public/resources/schema/proyecto-final.png">
+<img src="./public/resources/schema/proyecto-final.PNG">
 
 ### 📱 Mobile
 
