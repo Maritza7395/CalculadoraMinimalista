@@ -13,9 +13,15 @@ ejemplo de cómo instalar lo que requiero si es muy específico
 ## 🔥 Instalación
 
 ```shell
-<escribe aquí cómo lo ejecuto>
-<aquí si necesito ejecutar otra cosa>
+npm install
 ```
+## 🔥 Servidor
+
+Ejecutar 
+```shell
+npm run start
+```
+para un servidor de desarrollo. Navega a http://localhost:80000/
 
 ## 🔍 Vistas 
 
