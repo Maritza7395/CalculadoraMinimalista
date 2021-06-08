@@ -25,15 +25,11 @@ ejemplo de cómo instalar lo que requiero si es muy específico
 
 ### 📱 Mobile
 
-<imagen aquí>
-
-## 📌 Stack
-
-<escribe aquí>
+...in progress...
 
 ## 🌟 Autor
 
-* **<Maritza Loaiza>**  - [@Maritza7395](https://github.com/Maritza7395)
+* **<Maritza Loaiza>**  - [@Maritza_Loaiza](https://github.com/Maritza7395)
 
 > Puedes encontrar más proyectos en
 [LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
