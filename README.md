@@ -1,10 +1,9 @@
 <p align="center">
     <a href="https://leonidasesteban.com/proyectos/todos"><img src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LonidasEsteban-destello-envolvente-circular-negro.png" height="100"/></a>
 </p>
-<p align="center">
  > Puedes encontrar más proyectos en
     [LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
-</p>
+
 ## Requerimientos
 
 <qué requiere tu programa>
