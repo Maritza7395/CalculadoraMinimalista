@@ -22,7 +22,7 @@ Ejecutar
 ```shell
 npm run start
 ```
-para un servidor local. Navega a http://localhost:80000/
+para un servidor local. Navega a http://localhost:8000/
 
 ## 🔍 Vistas 
 
