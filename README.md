@@ -4,11 +4,7 @@
 
 ## Requerimientos
 
-<qué requiere tu programa>
-
-```shell
-ejemplo de cómo instalar lo que requiero si es muy específico
-```
+NodeJS https://nodejs.org/es/
 
 ## 🔥 Instalación
 
