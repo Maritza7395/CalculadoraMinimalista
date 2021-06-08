@@ -2,9 +2,14 @@
     <a href="https://leonidasesteban.com/proyectos/todos"><img src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LonidasEsteban-destello-envolvente-circular-negro.png" height="100"/></a>
 </p>
 
+<p align="center">
+    Aplicación creada a partir de un diseño entregado por Proyectos de 
+    <a href="https://leonidasesteban.com/">leonidasesteban.com</a>
+</p>
+
 ## Requerimientos
 
-NodeJS https://nodejs.org/es/
+<a href="https://nodejs.org/es/">NodeJS</a>
 
 ## 🔥 Instalación
 
