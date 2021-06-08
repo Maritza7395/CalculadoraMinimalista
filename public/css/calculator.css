@@ -1,0 +1,187 @@
+
+/*  Maquetado general, fondos, margen, etc  */
+body{
+    background-image: url("../resources/background.png");
+    background-size: cover;
+}
+
+.background-calculator{
+    height: 584px;
+    width: 328px;
+    background: linear-gradient(180deg, #FEFEFE 0%, #E9ECEE 37.34%);
+    border-radius: 18.22px;
+    border: 1px solid #000000;
+    box-shadow: 13px 13px 10px 0px rgba(229, 229, 229, 1);
+}
+
+.position-calculator{
+    position: relative;
+    margin: 60px 300px;
+}
+
+.style-col{
+    flex-direction: column;
+    padding: 0;
+    width: 70px;
+}
+
+.style-col div, .style-col label{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.style-col .number-button label,
+.style-col .min-button label,
+.style-col .percentage-button label{
+    color: #627785;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.style-col .c-button label,
+.style-col .result-button label{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.style-col .operators-button div{
+    color: #111C81;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.style-col .back-button img{
+    width: 25px;
+}
+
+.style-row{
+    margin: 0px 20px;
+}
+
+/*  Estilo de la caja para el ingreso de numeros    */
+.input-container{
+    width: 293px;
+    height: 87px;
+    background-color: #A5A5A5;
+    border: 7px solid #000000;
+    border-radius: 10px;
+    margin: 65px 20px 45px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.input-style{
+    background-color: #A5A5A5;
+    width: 100%;
+    border: 0;
+    text-align: end;
+    outline: none;
+    color: #3F474E;
+    font-size: 28px;
+    user-select: none;
+}
+
+.label-valor{
+    top: 70px;
+    right: 25px;
+    position: absolute;
+}
+
+.operators-button > input{ 
+    display: none;
+    position: absolute;
+}
+
+/*  Estilos de los botones de la calculadora    */
+.size-button{
+    height: 66px;
+    width: 66px;
+    border-radius: 30px;
+}
+.c-button{
+    background-color: #FE9505;
+    box-shadow: 4px 4px 4px 0px #DEBF81;
+}
+
+.c-button:active{
+    background-color: #DD922B;
+}
+
+.min-button{
+    background-color: #F5F0E3;
+    box-shadow: 4px 4px 4px 0px rgba(224, 219, 206, 1);
+}
+
+.percentage-button{
+    background-color: #F6F0E4;
+    box-shadow: 4px 4px 4px 0px rgba(224, 219, 206, 1);
+}
+
+.min-button:active, .percentage-button:active{
+    background-color: #DEC99D;
+}
+
+.operators-button{
+    background-color: #D5D6E9;
+}
+
+.operators-button:active{
+    background-color: #7F87D4;
+}
+
+.operators-button--select{
+    background-color: #5563E6;
+}
+
+.operators-button--div{
+    color: #FFFFFF;
+}
+
+.number-button{
+    background-color: #F2F3F5;
+}
+
+.number-button:active{
+    background-color: #CDD5DB;
+}
+
+.result-button{
+    background-color: #2D41F5;
+}
+
+.result-button:active{
+    background-color: #0B20DD;
+}
+
+.back-button{
+    background-color: #E7E9EC;
+}
+
+.back-button:active{
+    background-color: #B3B9C3;
+}
+
+/*  Sombras */
+
+.number-shadow{
+    box-shadow: -4px -4px 5px 0px #FFFFFF;
+    box-shadow: 4px 4px 5px 0px #DEE0E3;
+}
+
+.operators-shadow{
+    box-shadow: 4px 4px 5px 0px rgba(214, 201, 223, 1);
+}
+
+.result-shadow{
+    box-shadow: 4px 4px 5px 0px rgba(105, 118, 233, 1);
+}
+
+.back-shadow{
+    box-shadow: 4px 4px 5px 0px rgba(212, 213, 215, 1);
+}
