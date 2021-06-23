@@ -28,7 +28,7 @@ para un servidor local. Navega a http://localhost:8000/
 
 ### 💻 Desktop
 
-<img src="./public/resources/schema/proyecto-final.PNG">
+<img src="./resources/schema/proyecto-final.PNG">
 
 ### 📱 Mobile
 
