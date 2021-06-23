@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+    body{
+        background-position-x: right;
+        background-size: inherit;   
+    }
     .position-calculator{
         margin: auto;
         margin-top: 8%;
