@@ -28,11 +28,11 @@ para un servidor local. Navega a http://localhost:8000/
 
 ### 💻 Desktop
 
-<img src="./resources/schema/proyecto-final.PNG">
+<img width="600px" src="./resources/schema/proyecto-final.PNG">
 
 ### 📱 Mobile
 
-...in progress...
+<img width="200px" src="./resources/mobile.png">
 
 ## 🌟 Autor
 
